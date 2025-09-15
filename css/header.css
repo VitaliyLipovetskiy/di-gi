@@ -1,0 +1,68 @@
+header {
+    background-color: #2B4074;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 153px;
+}
+
+.menu {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 639px) {
+    .logo {
+        margin-left: 25px;
+    }
+    .menu {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    .logo {
+        margin-left: 53px;
+    }
+    .menu {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo {
+        margin-left: 44px;
+    }
+    .menu {
+        margin-right: 41px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .logo {
+        margin-left: 46px;
+    }
+    .menu {
+        margin-right: 42px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .logo {
+        margin-left: 153px;
+    }
+    .menu {
+        margin-right: 135px;
+    }
+}
