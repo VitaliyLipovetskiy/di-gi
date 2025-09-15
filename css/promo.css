@@ -1,0 +1,178 @@
+.promo {
+    position: relative;
+    width: 100%;
+    background-color: #2B4074;
+    justify-items: center;
+}
+
+.promo-content {
+    position: relative;
+    height: 100%;
+    align-self: center;
+}
+
+.promo-text {
+    position: relative;
+    color: white;
+}
+
+.promo-title {
+    margin: 0;
+}
+
+.promo-description {
+    font-size: 16px;
+}
+
+.promo-buy-button {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+}
+
+.promo-buy-button button {
+    width: 100%;
+    height: 100%;
+    background-color: #F9F6E5;
+    border-radius: 3px;
+    color: #2B4074;
+}
+
+@media only screen and (max-width: 639px) {
+    .promo {
+        display: flex;
+        flex-direction: row;
+        height: 301px;
+        justify-content: center;
+    }
+
+    .promo-content {
+        width: 320px;
+        justify-items: center;
+    }
+
+    .promo-text {
+        top: 40px;
+        height: 131px;
+        width: 280px;
+        text-align: center;
+    }
+
+    .promo-title {
+        font-size: 24px;
+    }
+
+    .promo-buy-button {
+        top: 211px;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    .promo {
+        display: flex;
+        flex-direction: row;
+        height: 254px;
+        justify-content: center;
+    }
+
+    .promo-content {
+        width: 640px;
+        justify-items: center;
+    }
+
+    .promo-text {
+        top: 40px;
+        height: 84px;
+        width: 580px;
+        text-align: center;
+    }
+
+    .promo-title {
+        font-size: 24px;
+    }
+
+    .promo-buy-button {
+        top: 164px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .promo {
+        height: 187px;
+        justify-content: left;
+    }
+
+    .promo-content {
+        width: 768px;
+    }
+
+    .promo-text {
+        top: 60px;
+        left: 46px;
+        height: 147px;
+        width: 446px;
+        text-align: left;
+    }
+
+    .promo-buy-button {
+        top: 69px;
+        right: 40px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .promo {
+        height: 160px;
+    }
+
+    .promo-content {
+        width: 1024px;
+    }
+
+    .promo-title {
+        font-size: 18px;
+    }
+
+    .promo-text {
+        top: 40px;
+        left: 46px;
+        height: 80px;
+        width: 695px;
+    }
+
+    .promo-description {
+        font-size: 14px;
+    }
+
+    .promo-buy-button {
+        top: 55px;
+        right: 42px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .promo {
+        height: 192px;
+    }
+
+    .promo-content {
+        width: 1440px;
+    }
+
+    .promo-text {
+        top: 57px;
+        left: 150px;
+        height: 78px;
+        width: 796px;
+    }
+
+    .promo-title {
+        font-size: 24px;
+    }
+
+    .promo-buy-button {
+        top: 71px;
+        right: 135px;
+    }
+
+}
