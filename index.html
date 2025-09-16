@@ -60,9 +60,9 @@
         </div>
     </div>
     <div class="intro-pagination">
-        <div class="oval"></div>
-        <div class="oval active"></div>
-        <div class="oval"></div>
+        <div class="intro-oval"></div>
+        <div class="intro-oval active"></div>
+        <div class="intro-oval"></div>
     </div>
 </section>
 
@@ -213,19 +213,31 @@
     <div class="projects-line"></div>
     <div class="projects-items">
         <div class="projects-item">
-            <img src="images/projects/portfolio-1-518x460.png" alt="portfolio-1">
+            <div class="projects-portfolio projects-portfolio-1"></div>
+            <div class="projects-item-hover">
+                <img src="images/projects/portfolio-icon.png" alt="icons">
+            </div>
             <span class="projects-item-title">Lalique бутик</span>
         </div>
         <div class="projects-item">
-            <img src="images/projects/portfolio-2-518x461.png" alt="portfolio-2">
+            <div class="projects-portfolio projects-portfolio-2"></div>
+            <div class="projects-item-hover">
+                <img src="images/projects/portfolio-icon.png" alt="icons">
+            </div>
             <span class="projects-item-title">Будівництво домів</span>
         </div>
         <div class="projects-item">
-            <img src="images/projects/portfolio-3-518x461.png" alt="portfolio-3">
+            <div class="projects-portfolio projects-portfolio-3"></div>
+            <div class="projects-item-hover">
+                <img src="images/projects/portfolio-icon.png" alt="icons">
+            </div>
             <span class="projects-item-title">Кавʼярня</span>
         </div>
         <div class="projects-item">
-            <img src="images/projects/portfolio-4-518x461.png" alt="portfolio-4">
+            <div class="projects-portfolio projects-portfolio-4"></div>
+            <div class="projects-item-hover">
+                <img src="images/projects/portfolio-icon.png" alt="icons">
+            </div>
             <span class="projects-item-title">Унікальні тури</span>
         </div>
     </div>
@@ -262,11 +274,17 @@
             <div class="news-item-caption roboto-condensed">
                 <span>3Д в брендингу</span>
             </div>
+            <div class="news-icon">
+                <img src="images/news/news-icon.png" alt="icons">
+            </div>
         </div>
         <div class="news-item">
             <img src="images/news/news-2-269x341.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Контекстна реклама</span>
+            </div>
+            <div class="news-icon">
+                <img src="images/news/news-icon.png" alt="icons">
             </div>
         </div>
         <div class="news-item">
@@ -274,11 +292,17 @@
             <div class="news-item-caption roboto-condensed">
                 <span>Графіка</span>
             </div>
+            <div class="news-icon">
+                <img src="images/news/news-icon.png" alt="icons">
+            </div>
         </div>
         <div class="news-item">
             <img src="images/news/news-4-251x210.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Корпоративна культура</span>
+            </div>
+            <div class="news-icon">
+                <img src="images/news/news-icon.png" alt="icons">
             </div>
         </div>
         <div class="news-item">
@@ -286,11 +310,17 @@
             <div class="news-item-caption roboto-condensed">
                 <span>Унікальний дизайн</span>
             </div>
+            <div class="news-icon">
+                <img src="images/news/news-icon.png" alt="icons">
+            </div>
         </div>
         <div class="news-item">
             <img src="images/news/news-6-269x341.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Погляд зі сторони</span>
+            </div>
+            <div class="news-icon">
+                <img src="images/news/news-icon.png" alt="icons">
             </div>
         </div>
         <div class="news-item">
@@ -298,18 +328,38 @@
             <div class="news-item-caption roboto-condensed">
                 <span>Соц мережі та їх користь</span>
             </div>
+            <div class="news-icon">
+                <img src="images/news/news-icon.png" alt="icons">
+            </div>
         </div>
         <div class="news-item">
             <img src="images/news/news-8-251x436.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Ексклюзивність</span>
             </div>
+            <div class="news-icon">
+                <img src="images/news/news-icon.png" alt="icons">
+            </div>
         </div>
     </div>
 </section>
 
 <section class="testimonial">
-    testimonial
+    <div class="testimonial-quotes">
+        <img src="images/testimonial/quotes.png" alt="quotes">
+    </div>
+    <div class="testimonial-content roboto-condensed">
+        Якщо треба створити або підняти імідж компанії,<br>
+        то <span>діджитал-маркетинг</span> є найбільш влучним
+    </div>
+    <div class="testimonial-author roboto-condensed">
+        - Маргарита Акулич
+    </div>
+    <div class="testimonial-pagination">
+        <div class="testimonial-oval"></div>
+        <div class="testimonial-oval active"></div>
+        <div class="testimonial-oval"></div>
+    </div>
 </section>
 
 <footer class="footer">
@@ -354,7 +404,7 @@
                         digi@gmail.com
                     </p>
                 </div>
-                <div class="footer-contact-item">
+                <div class="footer-contact-item footer-contact-item-right">
                      <p class="footer-contact-title roboto-condensed">
                          АДРЕСА
                     </p>
@@ -373,7 +423,7 @@
                         Вартість послуг
                     </p>
                 </div>
-                <div class="footer-contact-item">
+                <div class="footer-contact-item footer-contact-item-right">
                     <p class="footer-contact-title roboto-condensed">
                         МЕНЮ
                     </p>
@@ -386,7 +436,14 @@
             </div>
         </div>
     </div>
-    <div class="footer-bottom"></div>
+    <div class="footer-copyright">
+        <div class="footer-copyright-container">
+            <div class="footer-copyright-previous roboto-condensed">
+                НАГОРУ
+            </div>
+            <img src="images/footer/previous.png" alt="previous">
+        </div>
+    </div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

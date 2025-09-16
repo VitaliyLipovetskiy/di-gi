@@ -115,7 +115,7 @@
     top: 85%;
 }
 
-.oval {
+.intro-oval {
     width: 9px;
     height: 9px;
     border-radius: 50%;
@@ -124,7 +124,7 @@
     cursor: pointer;
 }
 
-.oval.active {
+.intro-oval.active {
     background-color: #ffffff00;
 }
 
