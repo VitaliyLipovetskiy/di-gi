@@ -78,6 +78,7 @@
     font-size: 16px;
     height: 32px;
     flood-color: #4A4A4A;
+    letter-spacing: 2px;
 }
 
 .service-item-hover {
@@ -103,8 +104,12 @@
 
 .service-details-btn {
     position: relative;
-    color: #2B4074;
     top: 20px;
+}
+
+.service-details-btn a {
+    color: #2B4074;
+    letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 639px) {
