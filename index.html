@@ -22,7 +22,7 @@
           rel="stylesheet">
 </head>
 <body>
-<header>
+<header id="header">
     <div class="container">
         <div class="logo">
             <img src="images/logo.svg" alt="logo" height="66px" width="100px">
@@ -74,13 +74,9 @@
                 послуг
                 в цифровій сфері.</p>
         </div>
-        <div class="promo-buy-button roboto">
-            <button>
-                <!--        <a href="tel:+380999999999">-->
-                ПЕРЕДЗВОНІТЬ МЕНІ
-                <!--        </a>-->
-            </button>
-        </div>
+        <a class="promo-buy-button" href="#">
+            <button class="roboto">ПЕРЕДЗВОНІТЬ МЕНІ</button>
+        </a>
     </div>
 </section>
 
@@ -108,7 +104,7 @@
                         Створимо унікальну стратегію
                     </div>
                     <div class="service-details-btn roboto-condensed">
-                        ДЕТАЛЬНІШЕ →
+                        <a href="#">ДЕТАЛЬНІШЕ →</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +117,7 @@
                         Створимо зручний аналіз
                     </div>
                     <div class="service-details-btn roboto-condensed">
-                        ДЕТАЛЬНІШЕ →
+                        <a href="#">ДЕТАЛЬНІШЕ →</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +130,7 @@
                         Створимо унікальні та зручні мережі)
                     </div>
                     <div class="service-details-btn roboto-condensed">
-                        ДЕТАЛЬНІШЕ →
+                        <a href="#">ДЕТАЛЬНІШЕ →</a>
                     </div>
                 </div>
             </div>
@@ -147,7 +143,7 @@
                         Допомагаєм розвиватися
                     </div>
                     <div class="service-details-btn roboto-condensed">
-                        ДЕТАЛЬНІШЕ →
+                        <a href="#">ДЕТАЛЬНІШЕ →</a>
                     </div>
                 </div>
             </div>
@@ -160,7 +156,7 @@
                         Наповнюєм контентом
                     </div>
                     <div class="service-details-btn roboto-condensed">
-                        ДЕТАЛЬНІШЕ →
+                        <a href="#">ДЕТАЛЬНІШЕ →</a>
                     </div>
                 </div>
             </div>
@@ -173,7 +169,7 @@
                         Створимо унікальний та зручний дизайн
                     </div>
                     <div class="service-details-btn roboto-condensed">
-                        ДЕТАЛЬНІШЕ →
+                        <a href="#">ДЕТАЛЬНІШЕ →</a>
                     </div>
                 </div>
             </div>
@@ -186,7 +182,7 @@
                         Створимо унікальну та зручну рекламу
                     </div>
                     <div class="service-details-btn roboto-condensed">
-                        ДЕТАЛЬНІШЕ →
+                        <a href="#">ДЕТАЛЬНІШЕ →</a>
                     </div>
                 </div>
             </div>
@@ -199,14 +195,14 @@
                         Створимо унікальний та зручний продукт
                     </div>
                     <div class="service-details-btn roboto-condensed">
-                        ДЕТАЛЬНІШЕ →
+                        <a href="#">ДЕТАЛЬНІШЕ →</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="projects roboto-condensed">
+<section id="projects" class="projects roboto-condensed">
     <div class="projects-title">
         Наші Проєкти
     </div>
@@ -215,34 +211,42 @@
         <div class="projects-item">
             <div class="projects-portfolio projects-portfolio-1"></div>
             <div class="projects-item-hover">
-                <img src="images/projects/portfolio-icon.png" alt="icons">
+                <a href="#">
+                    <img src="images/projects/portfolio-icon.png" alt="icons">
+                </a>
             </div>
             <span class="projects-item-title">Lalique бутик</span>
         </div>
         <div class="projects-item">
             <div class="projects-portfolio projects-portfolio-2"></div>
             <div class="projects-item-hover">
-                <img src="images/projects/portfolio-icon.png" alt="icons">
+                <a href="#">
+                    <img src="images/projects/portfolio-icon.png" alt="icons">
+                </a>
             </div>
             <span class="projects-item-title">Будівництво домів</span>
         </div>
         <div class="projects-item">
             <div class="projects-portfolio projects-portfolio-3"></div>
             <div class="projects-item-hover">
-                <img src="images/projects/portfolio-icon.png" alt="icons">
+                <a href="#">
+                    <img src="images/projects/portfolio-icon.png" alt="icons">
+                </a>
             </div>
             <span class="projects-item-title">Кавʼярня</span>
         </div>
         <div class="projects-item">
             <div class="projects-portfolio projects-portfolio-4"></div>
             <div class="projects-item-hover">
-                <img src="images/projects/portfolio-icon.png" alt="icons">
+                <a href="#">
+                    <img src="images/projects/portfolio-icon.png" alt="icons">
+                </a>
             </div>
             <span class="projects-item-title">Унікальні тури</span>
         </div>
     </div>
 </section>
-<section class="team">
+<section id="team" class="team">
     <div class="team-container">
         <img src="images/team/video.png" alt="video">
         <div class="team-content">
@@ -258,9 +262,9 @@
                 стати краще в тому, що ми робимо.
             </div>
         </div>
-        <div class="team-btn roboto">
-            <button>ДИВИТИСЬ ВІДЕО</button>
-        </div>
+        <a class="team-btn" href="#">
+            <button class="roboto">ДИВИТИСЬ ВІДЕО</button>
+        </a>
     </div>
 </section>
 <section class="news">
@@ -274,72 +278,72 @@
             <div class="news-item-caption roboto-condensed">
                 <span>3Д в брендингу</span>
             </div>
-            <div class="news-icon">
+            <a class="news-icon" href="#">
                 <img src="images/news/news-icon.png" alt="icons">
-            </div>
+            </a>
         </div>
         <div class="news-item">
             <img src="images/news/news-2-269x341.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Контекстна реклама</span>
             </div>
-            <div class="news-icon">
+            <a class="news-icon" href="#">
                 <img src="images/news/news-icon.png" alt="icons">
-            </div>
+            </a>
         </div>
         <div class="news-item">
             <img src="images/news/news-3-268x383.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Графіка</span>
             </div>
-            <div class="news-icon">
+            <a class="news-icon" href="#">
                 <img src="images/news/news-icon.png" alt="icons">
-            </div>
+            </a>
         </div>
         <div class="news-item">
             <img src="images/news/news-4-251x210.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Корпоративна культура</span>
             </div>
-            <div class="news-icon">
+            <a class="news-icon" href="#">
                 <img src="images/news/news-icon.png" alt="icons">
-            </div>
+            </a>
         </div>
         <div class="news-item">
             <img src="images/news/news-5-270x167.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Унікальний дизайн</span>
             </div>
-            <div class="news-icon">
+            <a class="news-icon" href="#">
                 <img src="images/news/news-icon.png" alt="icons">
-            </div>
+            </a>
         </div>
         <div class="news-item">
             <img src="images/news/news-6-269x341.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Погляд зі сторони</span>
             </div>
-            <div class="news-icon">
+            <a class="news-icon" href="#">
                 <img src="images/news/news-icon.png" alt="icons">
-            </div>
+            </a>
         </div>
         <div class="news-item">
             <img src="images/news/news-7-269x198.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Соц мережі та їх користь</span>
             </div>
-            <div class="news-icon">
+            <a class="news-icon" href="#">
                 <img src="images/news/news-icon.png" alt="icons">
-            </div>
+            </a>
         </div>
         <div class="news-item">
             <img src="images/news/news-8-251x436.png" alt="News">
             <div class="news-item-caption roboto-condensed">
                 <span>Ексклюзивність</span>
             </div>
-            <div class="news-icon">
+            <a class="news-icon" href="#">
                 <img src="images/news/news-icon.png" alt="icons">
-            </div>
+            </a>
         </div>
     </div>
 </section>
@@ -374,74 +378,62 @@
             </div>
             <div class="footer-social">
                 <div class="footer-social-item item-end">
-                    <div class="footer-social-img">
+                    <a class="footer-social-img" href="#">
                         <img src="images/footer/1.png" alt="facebook">
-                    </div>
+                    </a>
                 </div>
                 <div class="footer-social-item item-end">
-                    <div class="footer-social-img">
+                    <a class="footer-social-img" href="#">
                         <img src="images/footer/2.png" alt="google">
-                    </div>
+                    </a>
                 </div>
                 <div class="footer-social-item item-end">
-                    <div class="footer-social-img">
+                    <a class="footer-social-img" href="#">
                         <img src="images/footer/3.png" alt="twitter">
-                    </div>
+                    </a>
                 </div>
                 <div class="footer-social-item">
-                    <div class="footer-social-img">
+                    <a class="footer-social-img" href="#">
                         <img src="images/footer/4.png" alt="">
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="footer-contact">
                 <div class="footer-contact-item">
-                    <p class="footer-contact-title roboto-condensed">
-                        КОНТАКТИ
-                    </p>
-                    <p class="footer-contact-text roboto">
-                        +380 555 55 66<br>
-                        digi@gmail.com
-                    </p>
+                    <p class="roboto-condensed">КОНТАКТИ</p>
+                    <a class="roboto" href="tel:+3805555566">+380 555 55 66</a>
+                    <a class="roboto" href="mailto:digi@gmail.com">digi@gmail.com</a>
                 </div>
                 <div class="footer-contact-item footer-contact-item-right">
-                     <p class="footer-contact-title roboto-condensed">
-                         АДРЕСА
-                    </p>
-                    <p class="footer-contact-text roboto">
+                    <p class="roboto-condensed">АДРЕСА</p>
+                    <a class="roboto" href="#">
                         Пр. Науки 107<br>
                         Kиїв / Україна
-                    </p>
+                    </a>
                 </div>
                 <div class="footer-contact-item">
-                     <p class="footer-contact-title roboto-condensed">
-                         ДОПОМОГА
-                    </p>
-                    <p class="footer-contact-text roboto">
-                        Як з нами звʼязатись?<br>
-                        Що таке діджитал?<br>
-                        Вартість послуг
-                    </p>
+                    <p class="roboto-condensed">ДОПОМОГА</p>
+                    <a class="roboto" href="#">Як з нами звʼязатись?</a>
+                    <a class="roboto" href="#">Що таке діджитал?</a>
+                    <a class="roboto" href="#">Вартість послуг</a>
                 </div>
                 <div class="footer-contact-item footer-contact-item-right">
-                    <p class="footer-contact-title roboto-condensed">
-                        МЕНЮ
-                    </p>
-                    <p class="footer-contact-text roboto">
-                        Наші проєкти<br>
-                        Команда<br>
-                        Блог
-                    </p>
+                    <p class="roboto-condensed">МЕНЮ</p>
+                    <a class="roboto" href="#projects">Наші проєкти</a>
+                    <a class="roboto" href="#team">Команда</a>
+                    <a class="roboto" href="#">Блог</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="footer-copyright-container">
-            <div class="footer-copyright-previous roboto-condensed">
-                НАГОРУ
-            </div>
-            <img src="images/footer/previous.png" alt="previous">
+            <a href="#header">
+                <div class="footer-copyright-previous roboto-condensed">
+                    НАГОРУ
+                </div>
+                <img src="images/footer/previous.png" alt="previous">
+            </a>
         </div>
     </div>
 </footer>

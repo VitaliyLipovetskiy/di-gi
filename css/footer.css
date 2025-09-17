@@ -53,8 +53,32 @@
     position: absolute;
 }
 
+.footer-social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .footer-contact {
     position: absolute;
+}
+
+.footer-contact-item {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.footer-contact-item p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 22px;
+    margin: 0;
+}
+
+.footer-contact-item a {
+    font-size: 16px;
+    line-height: 20px;
     color: #FFFFFF;
 }
 
@@ -67,7 +91,7 @@
     align-content: center;
 }
 
-.footer-copyright-container {
+.footer-copyright-container a {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -144,16 +168,7 @@
         height: 100%;
     }
 
-    .footer-contact-title {
-        font-size: 18px;
-    }
-
-    .footer-contact-text {
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .footer-copyright-container {
+    .footer-copyright-container a {
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -164,7 +179,7 @@
         padding-bottom: 20px;
     }
 
-    .footer-copyright-container img {
+    .footer-copyright-container a img {
         height: 15px;
         width: 16px;
     }
@@ -222,16 +237,6 @@
     .footer-contact-item-right {
         position: relative;
         left: 67px;
-    }
-
-    .footer-contact-title {
-        margin-top: 0;
-        font-size: 18px;
-    }
-
-    .footer-contact-text {
-        font-size: 16px;
-        line-height: 20px;
     }
 
     .footer-copyright-container {
@@ -292,16 +297,6 @@
         height: 50%;
     }
 
-    .footer-contact-title {
-        margin-top: 0;
-        font-size: 18px;
-    }
-
-    .footer-contact-text {
-        font-size: 16px;
-        line-height: 20px;
-    }
-
     .footer-copyright-container {
         width: 690px;
     }
@@ -357,16 +352,6 @@
     .footer-contact-item {
         width: 25%;
         height: 100%;
-    }
-
-    .footer-contact-title {
-        margin-top: 0;
-        font-size: 18px;
-    }
-
-    .footer-contact-text {
-        font-size: 16px;
-        line-height: 20px;
     }
 
     .footer-copyright-container {
@@ -436,16 +421,6 @@
     .footer-contact-item {
         width: 25%;
         height: 100%;
-    }
-
-    .footer-contact-title {
-        margin-top: 0;
-        font-size: 18px;
-    }
-
-    .footer-contact-text {
-        font-size: 16px;
-        line-height: 20px;
     }
 
     .footer-copyright-container {
