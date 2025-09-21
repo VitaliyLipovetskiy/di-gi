@@ -70,7 +70,7 @@
     justify-self: center;
 }
 
-.service-item span {
+.service-item h2 {
     position: relative;
     grid-area: a;
     justify-self: center;
@@ -163,11 +163,11 @@
         top: 36px;
     }
 
-    .service-item span {
+    .service-item h2 {
         top: 200px;
     }
 
-    .service-item:hover span {
+    .service-item:hover h2 {
         top: 130px;
     }
 
@@ -233,11 +233,11 @@
         top: 41px;
     }
 
-    .service-item span {
+    .service-item h2 {
         top: 210px;
     }
 
-    .service-item:hover span {
+    .service-item:hover h2 {
         top: 140px;
     }
 
@@ -302,11 +302,11 @@
         top: 56px;
     }
 
-    .service-item span {
+    .service-item h2 {
         top: 221px;
     }
 
-    .service-item:hover span {
+    .service-item:hover h2 {
         top: 151px;
     }
 
@@ -370,11 +370,11 @@
         top: 26px;
     }
 
-    .service-item span {
+    .service-item h2 {
         top: 182px;
     }
 
-    .service-item:hover span {
+    .service-item:hover h2 {
         top: 112px;
     }
 
@@ -443,11 +443,11 @@
         top: 20px;
     }
 
-    .service-item span {
+    .service-item h2 {
         top: 174px;
     }
 
-    .service-item:hover span {
+    .service-item:hover h2 {
         top: 104px;
     }
 

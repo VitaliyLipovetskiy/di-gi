@@ -47,6 +47,7 @@
 
 .news-item-caption span {
     padding-left: 20px;
+    letter-spacing: 2px;
 }
 
 .news-item:hover {
