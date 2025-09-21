@@ -13,6 +13,11 @@ header .container {
     margin-left: 153px;
 }
 
+.logo img {
+    height: 66px;
+    width: 100px;
+}
+
 .menu {
     display: flex;
     width: 40px;
@@ -21,6 +26,11 @@ header .container {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+.menu img {
+    height: 14px;
+    width: 13px;
 }
 
 @media only screen and (max-width: 639px) {

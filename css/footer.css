@@ -47,6 +47,7 @@
 .footer-title {
     position: absolute;
     color: #FFFFFF;
+    letter-spacing: 2px;
 }
 
 .footer-social {
