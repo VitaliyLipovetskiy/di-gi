@@ -49,6 +49,10 @@
     justify-content: center;
 }
 
+.projects-item-hover a {
+    background: url("../images/projects/portfolio-icon.png") no-repeat center center;
+}
+
 .projects-item:hover .projects-item-hover {
     visibility: visible;
 }
@@ -103,9 +107,10 @@
         top: 12px;
     }
 
-    .projects-item-hover a img {
+    .projects-item-hover a {
         height: 33px;
         width: 73px;
+        background-size: 73px 33px;
     }
 }
 
@@ -161,9 +166,10 @@
         top: 21px;
     }
 
-    .projects-item-hover a img {
+    .projects-item-hover a {
         height: 62px;
         width: 153px;
+        background-size: 153px 62px;
     }
 }
 
@@ -205,9 +211,10 @@
         top: 13px;
     }
 
-    .projects-item-hover a img {
+    .projects-item-hover a {
         height: 38px;
         width: 83px;
+        background-size: 83px 38px;
     }
 }
 
@@ -250,9 +257,10 @@
         top: 13px;
     }
 
-    .projects-item-hover a img {
+    .projects-item-hover a {
         height: 38px;
         width: 83px;
+        background-size: 83px 38px;
     }
 }
 
@@ -293,9 +301,9 @@
         top: 11px;
     }
 
-    .projects-item-hover a img {
+    .projects-item-hover a {
         height: 32px;
         width: 70px;
+        background-size: 70px 32px;
     }
-
 }
