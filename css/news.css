@@ -68,8 +68,8 @@
 .news-item a {
     position: absolute;
     visibility: hidden;
-    height: 32px;
-    width: 49px;
+    height: 28px;
+    width: 28px;
     top: 0;
     bottom: 0;
     align-self: center;
