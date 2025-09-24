@@ -1,7 +1,9 @@
 .service {
     position: relative;
+    display: flex;
     width: 100%;
     background-color: #FFFFFF;
+    -webkit-justify-content: center;
 }
 
 .service-container {
@@ -47,11 +49,14 @@
 .service-items {
     display: grid;
     position: relative;
+    -webkit-justify-content: center;
 }
 
 .service-item {
+    position: relative;
     display: grid;
     grid-template-areas: "a";
+    -webkit-justify-content: center;
 }
 
 .service-details {

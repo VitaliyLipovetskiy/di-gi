@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     width: 100%;
+    /*-webkit-justify-content: center;*/
 }
 
 .bg-img {
@@ -20,13 +21,16 @@
 .intro-slides {
     position: absolute;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-justify-content: center;
 }
 
 .intro-slides .slide {
     width: 33.33%;
     height: 100%;
     float: left;
+    justify-self: center;
 }
 
 .intro-slides .slider-inner {

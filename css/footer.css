@@ -13,15 +13,19 @@
 
 .footer-container {
     position: relative;
+    display: flex;
     background-color: #2B4074;
     width: 100%;
     height: 632px;
+    -webkit-justify-content: center;
 }
 
 .footer-content {
     position: absolute;
+    display: flex;
     justify-self: center;
     height: 100%;
+    -webkit-justify-content: center;
 }
 
 .footer-logo {
