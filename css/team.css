@@ -1,13 +1,18 @@
 .team {
     position: relative;
+    display: flex;
     width: 100%;
     background-color: white;
     align-content: center;
+    -webkit-justify-content: center;
+    -webkit-align-content: center;
 }
 
 .team-container {
     position: relative;
+    display: flex;
     justify-self: center;
+    -webkit-align-self: center;
 }
 
 .team img {
@@ -51,6 +56,12 @@
     .team-container {
         height: 804px;
         width: 280px;
+        -webkit-justify-content: center;
+    }
+
+    .team-content {
+        display: flex;
+        justify-content: center;
     }
 
     .team-title {
@@ -66,8 +77,10 @@
     }
 
     .team-description {
+        left: 0;
         top: 373px;
         height: 325px;
+        width: 280px;
         text-align: center;
         font-size: 16px;
         line-height: 18px;
@@ -94,6 +107,12 @@
     .team-container {
         height: 914px;
         width: 520px;
+        -webkit-justify-content: center;
+    }
+
+    .team-content {
+        display: flex;
+        justify-content: center;
     }
 
     .team-title {
@@ -109,11 +128,14 @@
     }
 
     .team-description {
+        left: 0;
         top: 638px;
         height: 160px;
+        width: 518px;
         text-align: center;
         font-size: 16px;
         line-height: 24px;
+        justify-self: center;
     }
 
     .team img {

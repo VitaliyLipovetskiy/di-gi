@@ -1,15 +1,19 @@
 .promo {
     position: relative;
+    display: flex;
     width: 100%;
     background-color: #2B4074;
     justify-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
+    -webkit-justify-content: center;
 }
 
 .promo-content {
     position: relative;
+    display: flex;
     height: 100%;
-    align-self: center;
+    /*align-self: center;*/
+    -webkit-align-self: center;
 }
 
 .promo-text {
@@ -40,15 +44,15 @@
 
 @media only screen and (max-width: 639px) {
     .promo {
-        display: flex;
         flex-direction: row;
         height: 301px;
-        justify-content: center;
     }
 
     .promo-content {
         width: 320px;
         justify-items: center;
+        justify-self: center;
+        justify-content: center;
     }
 
     .promo-text {
@@ -69,10 +73,8 @@
 
 @media only screen and (min-width: 640px) and (max-width: 767px) {
     .promo {
-        display: flex;
         flex-direction: row;
         height: 254px;
-        justify-content: center;
     }
 
     .promo-content {
@@ -80,7 +82,6 @@
         justify-items: center;
         justify-self: center;
         justify-content: center;
-
     }
 
     .promo-text {
@@ -104,7 +105,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .promo {
         height: 187px;
-        justify-content: left;
+        /*justify-content: left;*/
     }
 
     .promo-content {
@@ -114,7 +115,7 @@
     .promo-text {
         top: 60px;
         left: 46px;
-        height: 147px;
+        height: 80px;
         width: 446px;
         text-align: left;
     }
