@@ -11,11 +11,13 @@
     display: flex;
     flex-direction: column;
     justify-self: center;
-    height: 100%;
 }
 
 .service-content {
-    position: absolute;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
 }
 
 .service-title {
@@ -48,7 +50,6 @@
 
 .service-items {
     display: grid;
-    position: relative;
     -webkit-justify-content: center;
 }
 
@@ -127,10 +128,10 @@
     }
 
     .service-content {
-        height: 246px;
-        left: 20px;
-        right: 20px;
         top: 25px;
+        height: 246px;
+        width: 280px;
+        -webkit-align-self: center;
     }
 
     .service-title {
@@ -140,7 +141,7 @@
 
     .service-line {
         top: 52px;
-        justify-self: center;
+        -webkit-align-self: center;
     }
 
     .service-text {
@@ -197,10 +198,10 @@
     }
 
     .service-content {
-        height: 241px;
-        left: 40px;
-        right: 40px;
         top: 24px;
+        height: 241px;
+        width: 560px;
+        -webkit-align-self: center;
     }
 
     .service-title {
@@ -214,7 +215,7 @@
 
     .service-line {
         top: 154px;
-        justify-self: center;
+        -webkit-align-self: center;
     }
 
     .service-description {
@@ -269,8 +270,6 @@
 
     .service-content {
         height: 264px;
-        left: 46px;
-        right: 46px;
         top: 42px;
     }
 
@@ -281,15 +280,19 @@
 
     .service-text {
         top: 90px;
+        text-align: center;
     }
 
     .service-line {
         top: 149px;
+        -webkit-align-self: center;
     }
 
     .service-description {
         top: 189px;
         width: 608px;
+        -webkit-align-self: center;
+        text-align: center;
     }
 
     .service-items {
@@ -333,13 +336,14 @@
 
     .service-container {
         width: 1024px;
+
     }
 
     .service-content {
-        height: 312px;
-        left: 46px;
-        right: 46px;
         top: 52px;
+        height: 312px;
+        width: 932px;
+        -webkit-align-self: center;
     }
 
     .service-title {

@@ -23,6 +23,7 @@
     height: 100%;
     float: left;
     align-items: center;
+    visibility: hidden;
 }
 
 .testimonial-slides .testimonial-slider-inner {
@@ -103,6 +104,12 @@
 #testimonial-switch2:checked ~ .testimonial-pagination label:nth-child(2),
 #testimonial-switch3:checked ~ .testimonial-pagination label:nth-child(3) {
     background-color: #ffffff00;
+}
+
+#testimonial-switch1:checked ~ .testimonial-slides .testimonial-slide:nth-child(1),
+#testimonial-switch2:checked ~ .testimonial-slides .testimonial-slide:nth-child(2),
+#testimonial-switch3:checked ~ .testimonial-slides .testimonial-slide:nth-child(3) {
+    visibility: visible;
 }
 
 @media only screen and (max-width: 639px) {
