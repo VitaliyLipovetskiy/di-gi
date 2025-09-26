@@ -11,7 +11,6 @@
     position: relative;
     display: flex;
     height: 100%;
-    -webkit-align-self: center;
 }
 
 .promo-text {
@@ -28,17 +27,20 @@
 }
 
 .promo-buy-button {
-    position: absolute;
+    position: relative;
     height: 50px;
     width: 200px;
-    background-color: #F9F6E5;
     border-radius: 3px;
-    color: #2B4074;
     cursor: pointer;
-    display: -webkit-inline-box;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
+    text-align: center;
     font-size: 18px;
+}
+
+.promo-buy-button button {
+    height: 100%;
+    width: 100%;
+    background-color: #F9F6E5;
+    color: #2B4074;
 }
 
 @media only screen and (max-width: 639px) {
@@ -48,10 +50,7 @@
     }
 
     .promo-content {
-        width: 320px;
-        justify-items: center;
-        justify-self: center;
-        justify-content: center;
+        flex-direction: column;
     }
 
     .promo-text {
@@ -66,21 +65,18 @@
     }
 
     .promo-buy-button {
-        top: 211px;
+        top: 76px;
+        align-self: center;
     }
 }
 
 @media only screen and (min-width: 640px) and (max-width: 767px) {
     .promo {
-        flex-direction: row;
         height: 254px;
     }
 
     .promo-content {
-        width: 640px;
-        justify-items: center;
-        justify-self: center;
-        justify-content: center;
+        flex-direction: column;
     }
 
     .promo-text {
@@ -95,16 +91,14 @@
     }
 
     .promo-buy-button {
-        position: absolute;
+        top: 82px;
         align-self: center;
-        top: 164px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .promo {
         height: 187px;
-        /*justify-content: left;*/
     }
 
     .promo-content {
@@ -121,7 +115,7 @@
 
     .promo-buy-button {
         top: 69px;
-        right: 40px;
+        left: 100px;
     }
 }
 
@@ -151,7 +145,7 @@
 
     .promo-buy-button {
         top: 55px;
-        right: 42px;
+        left: 80px;
     }
 }
 
@@ -177,7 +171,7 @@
 
     .promo-buy-button {
         top: 71px;
-        right: 135px;
+        left: 335px;
     }
 
 }
