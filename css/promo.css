@@ -4,7 +4,6 @@
     width: 100%;
     background-color: #2B4074;
     justify-items: center;
-    /*justify-content: center;*/
     -webkit-justify-content: center;
 }
 
@@ -12,7 +11,6 @@
     position: relative;
     display: flex;
     height: 100%;
-    /*align-self: center;*/
     -webkit-align-self: center;
 }
 
@@ -37,8 +35,9 @@
     border-radius: 3px;
     color: #2B4074;
     cursor: pointer;
-    text-align: center;
-    -webkit-align-content: center;
+    display: -webkit-inline-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
     font-size: 18px;
 }
 
