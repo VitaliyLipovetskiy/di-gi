@@ -39,11 +39,7 @@
     position: absolute;
     width: 230px;
     height: 60px;
-    font-size: 18px;
     border-radius: 3px;
-    text-align: center;
-    -webkit-align-content: center;
-    cursor: pointer;
 }
 
 .team-btn button {
@@ -51,6 +47,7 @@
     width: 100%;
     background-color: #2B4074;
     color: #F9F6E5;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 639px) {
