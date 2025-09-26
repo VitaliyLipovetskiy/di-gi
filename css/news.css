@@ -46,7 +46,8 @@
     -webkit-align-content: center;
 }
 
-.news-item-caption span {
+.news-item-caption p {
+    margin: 0;
     padding-left: 20px;
     letter-spacing: 2px;
 }
