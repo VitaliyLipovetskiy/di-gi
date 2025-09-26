@@ -43,7 +43,7 @@
     width: 100%;
     background-color: #FFFFFF;
     bottom: 0;
-    align-content: center;
+    -webkit-align-content: center;
 }
 
 .news-item-caption span {
