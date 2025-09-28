@@ -28,18 +28,20 @@
 
 .promo-buy-button {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 50px;
     width: 200px;
     border-radius: 3px;
     background-color: #F9F6E5;
-    -webkit-align-content: center;
 }
 
 .promo-buy-button div {
-    width: 100%;
     color: #2B4074;
     font-size: 18px;
     line-height: 18px;
+    text-align: center;
     -webkit-justify-content: center;
 }
 

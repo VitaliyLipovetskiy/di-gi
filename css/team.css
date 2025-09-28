@@ -37,19 +37,19 @@
 
 .team-btn {
     position: absolute;
+    display: flex;
+    flex-direction: column;
     width: 230px;
     height: 60px;
     border-radius: 3px;
     background-color: #2B4074;
-    -webkit-align-content: center;
+    justify-content: center;
 }
 
 .team-btn div {
-    width: 100%;
     color: #F9F6E5;
     font-size: 18px;
     text-align: center;
-    -webkit-justify-content: center;
 }
 
 @media only screen and (max-width: 639px) {
