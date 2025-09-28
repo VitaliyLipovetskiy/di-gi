@@ -42,12 +42,14 @@
     border-radius: 3px;
 }
 
-.team-btn button {
+.team-btn div {
     height: 100%;
     width: 100%;
     background-color: #2B4074;
     color: #F9F6E5;
     font-size: 18px;
+    text-align: center;
+    -webkit-align-content: center;
 }
 
 @media only screen and (max-width: 639px) {

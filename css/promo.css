@@ -33,13 +33,15 @@
     border-radius: 3px;
 }
 
-.promo-buy-button button {
+.promo-buy-button div {
     height: 100%;
     width: 100%;
     background-color: #F9F6E5;
     color: #2B4074;
     font-size: 18px;
     line-height: 18px;
+    text-align: center;
+    -webkit-align-content: center;
 }
 
 @media only screen and (max-width: 639px) {
