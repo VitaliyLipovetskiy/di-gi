@@ -50,6 +50,7 @@
     margin: 0;
     padding-left: 20px;
     letter-spacing: 2px;
+    -webkit-justify-content: center;
 }
 
 .news-item:hover {
