@@ -77,8 +77,8 @@
     width: 28px;
     top: 0;
     bottom: 0;
+    -webkit-align-self: center;
     align-self: center;
-    align-content: center;
     background: url("../images/news/news-icon.png") no-repeat center center;
 }
 
