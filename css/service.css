@@ -50,6 +50,7 @@
 
 .service-items {
     display: grid;
+    position: relative;
     -webkit-justify-content: center;
 }
 
@@ -129,7 +130,7 @@
 
     .service-content {
         top: 25px;
-        height: 246px;
+        height: 260px;
         width: 280px;
         -webkit-align-self: center;
     }
@@ -156,7 +157,7 @@
     }
 
     .service-items {
-        top: 409px;
+        top: 125px;
         height: 2293px;
         grid-template-columns: 100%;
     }
@@ -296,7 +297,7 @@
     }
 
     .service-items {
-        top: 306px;
+        top: 16px;
         height: 1348px;
         grid-template-columns: repeat(2, 50%);
         grid-template-rows: repeat(4, 25%);
@@ -364,7 +365,7 @@
     }
 
     .service-items {
-        top: 364px;
+        top: 34px;
         height: 548px;
         min-width: 853px;
         grid-template-columns: repeat(4, 25%);
