@@ -226,7 +226,7 @@
     }
 
     .service-items {
-        top: 305px;
+        top: 46px;
         height: 1246px;
         grid-template-columns: repeat(2, 50%);
         grid-template-rows: repeat(4, 25%);
