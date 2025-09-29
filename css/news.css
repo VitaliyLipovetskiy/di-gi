@@ -31,9 +31,9 @@
 
 .news-item {
     position: relative;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     width: 270px;
+    justify-items: center;
 }
 
 .news-item-caption {
@@ -75,9 +75,7 @@
     visibility: hidden;
     height: 28px;
     width: 28px;
-    top: 0;
-    bottom: 0;
-    -webkit-align-self: center;
+    justify-content: center;
     align-self: center;
     background: url("../images/news/news-icon.png") no-repeat center center;
 }
