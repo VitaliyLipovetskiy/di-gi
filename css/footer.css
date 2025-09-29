@@ -17,7 +17,8 @@
     background-color: #2B4074;
     width: 100%;
     height: 632px;
-    -webkit-justify-content: center;
+    /*-webkit-justify-content: center;*/
+    justify-content: center;
 }
 
 .footer-content {
@@ -88,15 +89,16 @@
 }
 
 .footer-copyright {
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 42px;
     background-color: #F9F6E5;
-    -webkit-align-content: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .footer-copyright-container a {
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: right;
