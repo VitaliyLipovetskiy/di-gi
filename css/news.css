@@ -3,6 +3,7 @@
     display: flex;
     height: 100px;
     -webkit-justify-content: center;
+    background-color: #F9F6E5;
 }
 
 .news-title {
@@ -34,6 +35,10 @@
     display: grid;
     width: 270px;
     justify-items: center;
+}
+
+.news-item img {
+    width: 100%
 }
 
 .news-item-caption {
