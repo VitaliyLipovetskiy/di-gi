@@ -3,21 +3,19 @@
     display: flex;
     width: 100%;
     background-color: #FFFFFF;
-    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 .service-container {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-self: center;
 }
 
 .service-content {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-self: center;
 }
 
 .service-title {
@@ -51,14 +49,14 @@
 .service-items {
     display: grid;
     position: relative;
-    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 .service-item {
     position: relative;
     display: grid;
     grid-template-areas: "a";
-    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 .service-details {
